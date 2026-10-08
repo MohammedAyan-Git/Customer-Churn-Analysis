@@ -26,7 +26,7 @@ Customer churn directly hurts recurring revenue, and keeping an existing custome
 - **Account info:** `tenure`, `Contract`, `PaperlessBilling`, `PaymentMethod`, `MonthlyCharges`, `TotalCharges`
 - **Services:** `PhoneService`, `MultipleLines`, `InternetService`, `OnlineSecurity`, `OnlineBackup`, `DeviceProtection`, `TechSupport`, `StreamingTV`, `StreamingMovies`
 
-- <a href="(https://github.com/MohammedAyan-Git/Customer-Churn-Analysis/blob/main/Customer_Churn_Dataset.csv)">Customer_Churn_Dataset</a>
+- <a href="https://github.com/MohammedAyan-Git/Customer-Churn-Analysis/blob/main/Customer_Churn_Dataset.csv">Customer_Churn_Dataset</a>
 
 ## Tools & Libraries
 
