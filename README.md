@@ -2,23 +2,6 @@
 
 An exploratory data analysis (EDA) of a telecom customer dataset to find out **who churns and why**, with a focus on contract type, payment method, tenure, internet services and senior-citizen status. The findings are turned into practical retention recommendations.
 
----
-
-## Table of Contents
-- [Project Overview](#-project-overview)
-- [Dataset](#-dataset)
-- [Tools & Libraries](#-tools--libraries)
-- [Data Preparation](#-data-preparation)
-- [Key Findings](#-key-findings)
-- [Visualizations](#-visualizations)
-- [Recommendations](#-recommendations)
-- [Repository Structure](#-repository-structure)
-- [How to Run](#-how-to-run)
-- [Future Improvements](#-future-improvements)
-- [Author](#-author)
-
----
-
 ## Project Overview
 
 Customer churn directly hurts recurring revenue, and keeping an existing customer is usually cheaper than acquiring a new one. This project analyses customer records to answer:
