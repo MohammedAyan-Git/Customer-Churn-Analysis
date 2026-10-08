@@ -1,10 +1,10 @@
-# 📉 Customer Churn Analysis (Telco Dataset)
+# Customer Churn Analysis (Telco Dataset)
 
 An exploratory data analysis (EDA) of a telecom customer dataset to find out **who churns and why**, with a focus on contract type, payment method, tenure, internet services and senior-citizen status. The findings are turned into practical retention recommendations.
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 - [Project Overview](#-project-overview)
 - [Dataset](#-dataset)
 - [Tools & Libraries](#-tools--libraries)
@@ -19,7 +19,7 @@ An exploratory data analysis (EDA) of a telecom customer dataset to find out **w
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 Customer churn directly hurts recurring revenue, and keeping an existing customer is usually cheaper than acquiring a new one. This project analyses customer records to answer:
 
@@ -29,7 +29,7 @@ Customer churn directly hurts recurring revenue, and keeping an existing custome
 - Do **internet service type** and **add-on services** (security, backup, tech support, etc.) affect churn?
 - Are **senior citizens** more likely to leave?
 
-## 📂 Dataset
+## Dataset
 
 | Property | Detail |
 |---|---|
@@ -45,7 +45,7 @@ Customer churn directly hurts recurring revenue, and keeping an existing custome
 
 > The CSV is not included in this repository. Download the dataset and save it as `Customer_Churn_Dataset.csv` in the project root (see [How to Run](#-how-to-run)).
 
-## 🛠 Tools & Libraries
+## Tools & Libraries
 
 - **Python 3**
 - **Pandas** – data loading, cleaning, aggregation
@@ -53,7 +53,7 @@ Customer churn directly hurts recurring revenue, and keeping an existing custome
 - **Matplotlib & Seaborn** – visualization
 - **Jupyter Notebook** – analysis environment
 
-## 🧹 Data Preparation
+## Data Preparation
 
 1. Loaded the dataset and inspected structure with `df.info()` and `df.describe()`.
 2. Fixed `TotalCharges`: it was stored as text because of blank values. Blanks were replaced with `0` and the column converted to `float`.
@@ -62,7 +62,7 @@ Customer churn directly hurts recurring revenue, and keeping an existing custome
 
 **Quick profile:** average tenure ≈ 32 months (max 72), average monthly charge ≈ 64.76, and about 16% of customers are senior citizens.
 
-## 🔍 Key Findings
+## Key Findings
 
 **Overall churn: 26.54%** of customers churned and 73.46% stayed.
 
@@ -75,7 +75,7 @@ Customer churn directly hurts recurring revenue, and keeping an existing custome
 | **Add-on services** | Customers **without** Online Security, Online Backup, Device Protection or Tech Support churn noticeably more than those who have them. |
 | **Senior citizens** | **41.7%** of senior citizens churned vs **23.6%** of non-seniors. |
 
-## 📊 Visualizations
+## Visualizations
 
 ### Overall churn rate
 ![Churn rate](images/churn_rate_pie.png)
@@ -95,7 +95,7 @@ Customer churn directly hurts recurring revenue, and keeping an existing custome
 ### Services vs churn
 ![Services vs churn](images/services_vs_churn.png)
 
-## 💡 Recommendations
+## Recommendations
 
 1. **Promote longer contracts:** offer discounts or perks to move month-to-month customers onto one- or two-year plans.
 2. **Move customers off electronic check:** encourage automatic payments (bank transfer or credit card) through incentives or small bill credits, and investigate friction in the electronic-check experience.
@@ -114,7 +114,7 @@ Customer churn directly hurts recurring revenue, and keeping an existing custome
 └── README.md
 ```
 
-## ▶️ How to Run
+## How to Run
 
 1. **Clone the repository**
    ```bash
@@ -135,14 +135,14 @@ Customer churn directly hurts recurring revenue, and keeping an existing custome
    jupyter notebook Churn_Analysis.ipynb
    ```
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Build a predictive model (Logistic Regression, Random Forest, XGBoost) to score churn risk per customer.
 - Add a Power BI / Tableau dashboard for interactive exploration.
 - Segment customers (e.g., by tenure and monthly charges) and estimate revenue at risk.
 - Test the statistical significance of the differences between groups.
 
-## 👤 Author
+## Author
 
 **Mohammed Ayan**
 B.Tech in Artificial Intelligence and Machine Learning
