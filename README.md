@@ -26,7 +26,7 @@ Customer churn directly hurts recurring revenue, and keeping an existing custome
 - **Account info:** `tenure`, `Contract`, `PaperlessBilling`, `PaymentMethod`, `MonthlyCharges`, `TotalCharges`
 - **Services:** `PhoneService`, `MultipleLines`, `InternetService`, `OnlineSecurity`, `OnlineBackup`, `DeviceProtection`, `TechSupport`, `StreamingTV`, `StreamingMovies`
 
-> The CSV is not included in this repository. Download the dataset and save it as `Customer_Churn_Dataset.csv` in the project root (see [How to Run](#-how-to-run)).
+- <a href="(https://github.com/MohammedAyan-Git/Customer-Churn-Analysis/blob/main/Customer_Churn_Dataset.csv)">Customer_Churn_Dataset</a>
 
 ## Tools & Libraries
 
