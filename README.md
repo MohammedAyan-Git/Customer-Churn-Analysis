@@ -61,22 +61,22 @@ Customer churn directly hurts recurring revenue, and keeping an existing custome
 ## Visualizations
 
 ### Overall churn rate
-![Churn rate](images/churn_rate_pie.png)
+![Churn rate](https://github.com/MohammedAyan-Git/Customer-Churn-Analysis/blob/main/churn_rate_pie.png)
 
 ### Churn by contract type
-![Churn by contract](images/churn_by_contract.png)
+![Churn by contract](https://github.com/MohammedAyan-Git/Customer-Churn-Analysis/blob/main/churn_by_contract.png))
 
 ### Churn by payment method
-![Churn by payment method](images/churn_by_payment_method.png)
+![Churn by payment method](https://github.com/MohammedAyan-Git/Customer-Churn-Analysis/blob/main/churn_by_payment_method.png)
 
 ### Tenure vs churn
-![Tenure vs churn](images/tenure_vs_churn.png)
+![Tenure vs churn](https://github.com/MohammedAyan-Git/Customer-Churn-Analysis/blob/main/tenure_vs_churn.png)
 
 ### Churn by senior citizen status
-![Churn by senior citizen](images/churn_by_senior_citizen.png)
+![Churn by senior citizen](https://github.com/MohammedAyan-Git/Customer-Churn-Analysis/blob/main/churn_by_senior_citizen.png)
 
 ### Services vs churn
-![Services vs churn](images/services_vs_churn.png)
+![Services vs churn](https://github.com/MohammedAyan-Git/Customer-Churn-Analysis/blob/main/services_vs_churn.png)
 
 ## Recommendations
 
@@ -86,16 +86,6 @@ Customer churn directly hurts recurring revenue, and keeping an existing custome
 4. **Bundle protective add-ons:** offer Online Security, Backup, Device Protection and Tech Support as trials or bundles, since customers with them churn less.
 5. **Review fiber optic service quality and pricing:** investigate reliability, speed and competitor offers behind the higher churn.
 6. **Create a senior-focused retention program:** simplified plans, dedicated support and personalized outreach.
-
-## 🗂 Repository Structure
-
-```
-.
-├── Churn_Analysis.ipynb          # Full analysis notebook
-├── Customer_Churn_Dataset.csv    # Dataset (download separately)
-├── images/                       # Charts used in this README
-└── README.md
-```
 
 ## How to Run
 
@@ -128,6 +118,4 @@ Customer churn directly hurts recurring revenue, and keeping an existing custome
 ## Author
 
 **Mohammed Ayan**
-B.Tech in Artificial Intelligence and Machine Learning
-
-[LinkedIn](https://www.linkedin.com/in/mohammedayan-in/) · [GitHub](https://github.com/MohammedAyan-Git)
+[Connect with me on LinkedIn](https://www.linkedin.com/in/mohammedayan-in/)
